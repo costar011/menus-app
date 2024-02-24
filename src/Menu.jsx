@@ -10,6 +10,12 @@ const navs = [
         <h2>About</h2>
         <nav>
             <a style={{animationDelay: "0.8s"}}>Profile</a>
+            <a style={{animationDelay: "0.9s"}}>Skills</a>
+            <a style={{animationDelay: "1s"}}>Education</a>
         </nav>
     </div>
 ]
+
+export const Menu = () => {
+    const [isOpen, setIsOpen] = useState(false);
+}
