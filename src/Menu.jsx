@@ -18,4 +18,16 @@ const navs = [
 
 export const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => setIsOpen(!isOpen);
+
+    const openClass = isOpen ? "open" : "";
+
+    return (
+        <>
+            <div className={`backgorund ${openClass}`}></div>
+            <button className={`burger ${openClass}`}onclick={toggleMenu}></button>
+            <div className=""></div>
+        </>
+    )
 }
