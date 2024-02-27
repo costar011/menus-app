@@ -27,7 +27,9 @@ export const Menu = () => {
         <>
             <div className={`backgorund ${openClass}`}></div>
             <button className={`burger ${openClass}`}onclick={toggleMenu}></button>
-            <div className=""></div>
+            <div className={`menu ${openClass}`}>
+                <Swiper speed={750}></Swiper>
+            </div>
         </>
     )
 }
