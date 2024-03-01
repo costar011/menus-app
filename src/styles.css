@@ -43,9 +43,33 @@ button {
   transition: 0.3s;
 }
 
-:is (
+/*:is (
     .swiper-button-next,
     .swiper-button-prev
 ):hover {
   opacity: 1;
+}
+
+에러가 나는 이유를 못 찾음
+*/
+
+/*:is (
+  .swiper-button-next,
+  .swiper-button-prev
+) .swiper-button-disabled {
+  opacity: 0.1;
+  cursor:default
+}
+*/
+
+.swiper-button-next {
+  right: 50px;
+}
+
+.swiper-button-prev {
+  left: 50px;
+}
+
+.burger, .menu, .background {
+  position: fixed;
 }
