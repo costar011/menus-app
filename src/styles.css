@@ -73,3 +73,18 @@ button {
 .burger, .menu, .background {
   position: fixed;
 }
+
+.background {
+  z-index: 1;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  transition: 0.5s;
+}
