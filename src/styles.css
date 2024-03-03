@@ -88,3 +88,18 @@ button {
 
   transition: 0.5s;
 }
+
+.background .open {
+  filter: blur(16px);
+}
+
+.burger {
+  z-index: 3;
+  top: 0;
+  left: 0;
+  display: grid;
+
+  place-items: center;
+  width: 88px;
+  height: 88px;
+}
