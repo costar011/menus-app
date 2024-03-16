@@ -125,3 +125,15 @@ button {
   visibility: hidden;
   transition: 0.5s;
 }
+
+.menu.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
