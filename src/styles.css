@@ -137,3 +137,11 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.menu nav:hover a {
+  opacity: 0.25;
+}
+
+.menu nav a:hover {
+  opacity: 1;
+}
