@@ -167,3 +167,7 @@ button {
   height: 2px;
   border-radius: 2px;
 }
+
+.menu a:hover::after {
+  transform: scaleX(1);
+}
